@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Create Array of object(Object should be id property ) and loop through Array and find all ids. Use For Each loop</h2>
+
+<p id="arrForEach"></p>
+
+<script> 
+    index = 0; 
+    empCodes = [10,20,30,40,50,60,70,80,90,100]; 
+    
+    empCodes.forEach(myFunction); 
+
+    function myFunction(item, index) 
+    { 
+        arrForEach.innerHTML = arrForEach.innerHTML + "index[" + index + "]: " + item + "<br>"; 
+    }
+</script> 
+
+
+</body>
+</html>

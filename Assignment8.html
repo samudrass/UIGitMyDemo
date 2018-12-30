@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Remove HTML from given Array [“C#”, “Javascript”,”Angular”,”HTML”]</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+var programmingLang = ["C#", "Javascript", "Angular", "HTML"];
+document.getElementById("demo").innerHTML = programmingLang;
+
+function myFunction() {
+    programmingLang.pop();
+  document.getElementById("demo").innerHTML = programmingLang;
+}
+</script>
+
+</body>
+</html>

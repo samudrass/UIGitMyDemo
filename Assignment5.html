@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Create Array of object(Object should be id property ) and loop through Array and find all ids. Use Map function.</h2>
+
+<button onclick="myFunction()">Try it</button>
+<p id="arrMap"></p>
+
+
+<script>
+var empIds = [100,200,300,400,500];
+
+function addArray(num) {
+  return num + 10
+}
+
+function myFunction() {
+  document.getElementById("arrMap").innerHTML = empIds.map(addArray);
+}
+</script>
+
+</body>
+</html>
